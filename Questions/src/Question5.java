@@ -1,3 +1,4 @@
+
 public class Question5 {
 	static boolean isPalindrome(int n) {
 		int num = n, rev =0;
@@ -18,7 +19,7 @@ public class Question5 {
 			if(i<maxby99) {
 				break;
 			}
-			for(int j=i; j>i-10; j--) {
+			for(int j=999; j>i; j--) {
 				int ij = i*j;
 				if(isPalindrome(ij)&&ij>max) {
 					max=ij;
